@@ -1,0 +1,203 @@
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+.headh2:hover {
+    color: black;
+}
+
+.headh2 {
+    color: rgb(245, 134, 52);
+}
+
+
+
+.headbutton {
+    background: rgb(245, 134, 52);
+}
+
+.headbutton:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.nava {
+    color: white;
+}
+
+.nava:hover {
+    color: black;
+}
+
+.offa {
+    color: rgb(255, 255, 255);
+}
+
+.offa:hover {
+    color: rgb(245, 134, 52);
+}
+
+@media screen and (max-width:1024px) {
+    .mainnavbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1056px) {
+    .mainoffcanvas {
+        display: none;
+    }
+}
+
+
+
+
+
+.maincard {
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+color: rgb(245, 134, 52);
+}
+
+.maincard:hover {
+    background-color: rgb(245, 134, 52);
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width:1024px) {
+    
+    .cardpara{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .cardpara2{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .cardpara2{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+.servicesh1{
+    margin-top: 80px;
+}
+
+@media screen and (max-width:1024px) {
+    .servicesh1{
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .servicesh1{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .servicesh1{
+        margin-top: 0px;
+    }
+}
+
+ 
+.footerbutton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.footerbutton:hover{
+    background-color: rgb(245, 134, 52);
+
+}
+
+@media screen and (max-width:1001px) {
+    .footerp2 {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width:1000px) {
+     .footerp3{
+        text-align: center;
+    
+    }
+
+}
+
+
+ @media screen and (min-width:995px) {
+    .footerp3{
+       text-align: end;
+       
+   }
+
+} 
+ 
+
+.servicebg{
+    background-image: url(images/Untitled\ design.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.servicecard{
+transition: 0.5s;
+
+    background: transparent;
+}
+
+
+.servicecard:hover{
+background-color: rgb(245,134,52);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+transition: 0.5s;
+color: white;
+}
+
+.contactbutton{
+    background-color: rgb(245,134,52);
+    color: white;
+}
+.contactbutton:hover{
+    background-color: black;
+    color: rgb(245, 134, 52);
+}
+
+.contactrow{
+    border: 1px solid rgb(245, 134, 52);
+}
+.joinrow{
+
+    border: 1px solid black;
+}
+
+
+.teamcard:hover{
+background-color : rgb(245, 134, 52);
+color: white;
+}
+
+.teamcard{
+transition: 0.5s;
+    
+}
+
+#owlfirst .owl-nav button span {
+    display: none;
+}
